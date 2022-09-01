@@ -1,0 +1,15 @@
+// Buefy framework customization based on docs here: https://buefy.org/documentation/customization
+
+// Setting custom values for Bulma/Buefy variables: https://bulma.io/documentation/customize/variables/
+$primary: #5700ff; // SDC Brand color
+$family-primary: "Sofia Pro", sans-serif;
+
+// Adding custom variables for styling Pokemon Card and columns
+$column-gap: 1.25rem; //half of 2.5rem which equals 40px
+$card-shadow: none;
+$card-content-padding: 2.5rem;
+$card-radius: .5rem;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
